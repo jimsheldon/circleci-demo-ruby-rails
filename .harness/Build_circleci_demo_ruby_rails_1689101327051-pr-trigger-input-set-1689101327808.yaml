@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_circleci_demo_ruby_rails_1689101327051-pr-trigger-input-set
+  identifier: Build_circleci_demo_ruby_rails_1689101327051prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sandbox
+  pipeline:
+    identifier: Build_circleci_demo_ruby_rails_1689101327051
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
